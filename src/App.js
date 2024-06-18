@@ -2,7 +2,6 @@ import React from "react";
 import BaseTable, { Column } from 'react-base-table';
 import 'react-base-table/styles.css';
 import "./App.css";
-// Define your columns with the ability to specify frozen columns
 const columns = [
   {
     key: 'id',
@@ -34,7 +33,7 @@ const columns = [
     title: 'Email',
     dataKey: 'email',
     width: 150,
-    frozen: Column.FrozenDirection.RIGHT, // Example to freeze another column to the right
+    frozen: Column.FrozenDirection.RIGHT, 
   },
 ];
 
