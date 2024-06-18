@@ -5,8 +5,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i` 
+To install all the dependencies and to start the app run below command.
 
 ### `npm start`
+
+### In this code react-base table is used to fixed the columns as react-data-table doesnot support this functionality.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
